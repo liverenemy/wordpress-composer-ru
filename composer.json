@@ -15,6 +15,7 @@
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.2.4",
     "fancyguy/wordpress-monolog": "dev-master",
+    "wpackagist-plugin/all-in-one-wp-migration": "4.2",
     "wpackagist-theme/twentyeleven":"*",
     "wpackagist-theme/twentyfifteen":"*",
     "wpackagist-theme/twentyfourteen":"*",
