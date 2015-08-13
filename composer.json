@@ -3,6 +3,10 @@
     {
       "type": "composer",
       "url": "http://languages.koodimonni.fi"
+    },
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
     }
   ],
   "require": {
@@ -10,7 +14,13 @@
     "koodimonni-language/ru_ru": "4.2.4",
     "php": ">=5.4",
     "johnpbloch/wordpress": "4.2.4",
-    "fancyguy/wordpress-monolog": "dev-master"
+    "fancyguy/wordpress-monolog": "dev-master",
+    "wpackagist-theme/twentyeleven":"*",
+    "wpackagist-theme/twentyfifteen":"*",
+    "wpackagist-theme/twentyfourteen":"*",
+    "wpackagist-theme/twentyten":"*",
+    "wpackagist-theme/twentythirteen":"*",
+    "wpackagist-theme/twentytwelve":"*"
   },
   "extra": {
     "dropin-paths": {
