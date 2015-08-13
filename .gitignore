@@ -1,0 +1,9 @@
+### App specific files
+wp/
+vendor/
+wp-content/
+.idea/
+*.log
+.htaccess
+wp-config.php
+uploads/*/

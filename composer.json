@@ -1,0 +1,23 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://languages.koodimonni.fi"
+    }
+  ],
+  "require": {
+    "koodimonni-language/core-ru_ru": "4.2.4",
+    "koodimonni-language/ru_ru": "4.2.4",
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.2.4",
+    "fancyguy/wordpress-monolog": "dev-master"
+  },
+  "extra": {
+    "dropin-paths": {
+      "wp-content/languages/": ["vendor:koodimonni-language"],
+      "wp-content/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "wp-content/languages/themes/": ["vendor:koodimonni-theme-language"]
+    },
+    "wordpress-install-dir": "wp"
+  }
+}
